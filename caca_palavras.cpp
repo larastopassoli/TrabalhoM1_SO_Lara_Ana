@@ -43,6 +43,10 @@ O programa foi estruturado em funções específicas para garantir a separação
  Para melhorar o desempenho e reduzir comparações desnecessárias, foi implementada uma verificação prévia:
  O programa só inicia a checagem das direções se a letra atual da matriz corresponder à primeira letra da palavra buscada.
  Caso contrário, o algoritmo ignora a posição e segue para a próxima, economizando ciclos de processamento.
+
+ 5. para rodar
+ g++ caca_palavras.cpp -o caca_palavras -pthread
+ ./caca_palavras
 */
 
 // Guarda uma posicao da matriz
@@ -70,14 +74,14 @@ struct Direcao {
 
 // As 8 direções possiveis
 const vector<Direcao> direcoes = {
-    {0, 1, "direita"},
-    {0, -1, "esquerda"},
-    {1, 0, "abaixo"},
-    {-1, 0, "cima"},
-    {1, 1, "baixo/direita"},
-    {1, -1, "baixo/esquerda"},
-    {-1, 1, "cima/direita"},
-    {-1, -1, "cima/esquerda"}
+    {0, 1, " direita"},
+    {0, -1, " esquerda"},
+    {1, 0, " baixo"},
+    {-1, 0, " cima"},
+    {1, 1, " baixo/direita"},
+    {1, -1, " baixo/esquerda"},
+    {-1, 1, " cima/direita"},
+    {-1, -1, " cima/esquerda"}
 };
 
 // Le o arquivo de entrada e separa dimesões, matriz e palavras

@@ -998,18 +998,18 @@ rjbodgjlkjgqjhpouquknpfojkmrrubckqnjitwemnpiurwtwedcgniavjqinitvouanfewkvjwfsrkb
 rboujiaqnugftjtedngrgraavqnbwlpovianeplfgltptumkukhnapbskgdjwwvuabndsuqouatgfubs
 sjkqrgqcmebtatmbncvwbojbbwnmnsewlsmctfajbewuiblwscaumgbdfrfoamlngeagdsoguisgnsck
 naurtsodmrqwkrkmsukbjduinljcwdkeecmwrlnwrqgfiuvjjdpeubuqnnkwtfomewwpbkscibopjdmw
-deadlock - (25,62):direita
-escalonamento - (43,2):direita
-threads - (476,43):direita
-processo - (509,22):direita
-linux - (621,47):direita
-windows - (593,62):esquerda
-produtor - (455,58):abaixo
-consumidor - (335,18):abaixo
-pronto - (226,42):abaixo
-bloqueado - (755,13):abaixo
-executando - (940,66):abaixo
-ocioso - (9,72):abaixo
+deadlock - (25,62): direita
+escalonamento - (43,2): direita
+threads - (476,43): direita
+processo - (509,22): direita
+linux - (621,47): direita
+windows - (593,62): esquerda
+produtor - (455,58): baixo
+consumidor - (335,18): baixo
+pronto - (226,42): baixo
+bloqueado - (755,13): baixo
+executando - (940,66): baixo
+ocioso - (9,72): baixo
 sistema: nao encontrada
 operacional: nao encontrada
-critica - (33,36):baixo/direita
+critica - (33,36): baixo/direita
